@@ -21,7 +21,14 @@ $navbar-default-bg: #073815;
   font-weight: bold;
 }
 
+.button-xlarge{
+  background-color: #073815;
+}
 
+.button-xlarge:hover{
+  color: #fff;
+  text-decoration: none;
+}
 
 #logo {
   float: left;
