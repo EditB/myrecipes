@@ -7,6 +7,22 @@ $navbar-default-bg: #073815;
   text-align: center;
 }
 
+.jumbotron {
+  background-image: asset-url('dan-gold-298710-unsplash.jpg');
+  background-size: cover;
+  height: 300px;
+}
+
+.jumbotron h1, h2 {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 30px;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+
+
 #logo {
   float: left;
   font-style: 1.7em;
@@ -19,4 +35,10 @@ $navbar-default-bg: #073815;
 #logo:hover{
   color: blue;
   text-decoration: none;
+}
+
+#footer {
+  color: #fff;
+  background-color: #073815;
+  margin: 30px;
 }
